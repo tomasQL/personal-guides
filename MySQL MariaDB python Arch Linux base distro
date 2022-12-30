@@ -1,0 +1,43 @@
+
+
+Instrucciones Python - MySQL - MariaDB installation guide
+
+Referencia: https://forum.manjaro.org/t/mysql-server-install/121098/12
+
+
+Switch to root account
+	su -l root
+
+	Installation
+	pacman -S mariadb mysql-workbench
+	
+	Setup the system database
+	mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
+	Enable and start the service:
+	systemctl enable --now mysql
+
+	mysql_secure_installation
+
+	create a user (example from wiki) - to create a sysadmin like user change mydb.* to *.*
+
+# mysql -u root -p
+
+MariaDB> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+MariaDB> GRANT ALL PRIVILEGES ON mydb.* TO 'monty'@'localhost';
+MariaDB> FLUSH PRIVILEGES;
+MariaDB> quit
+
+	exit para cerrar root account
+
+
+En caso de algún mising keyring
+	sudo pacman -Syu base-devel --needed
+
+
+En caso de perderme algo: 
+https://www.geeksforgeeks.org/how-to-install-and-configure-mysql-on-arch-based-linux-distributionsmanjaro/#:~:text=Installation%20of%20MySQL%20on%20Manjaro,to%20install%20the%20MySQL%20database.&text=Step%203:%20Now,%20verify%20the,by%20running%20the%20below%20command.&text=Step%204:%20Start%20MySQL%20server%20by%20using%20the%20systemctl%20command.&text=Step%205:%20Once%20again%20use%20systemctl%20command%20to%20enable%20MySQL%20service.
+
+
+
+

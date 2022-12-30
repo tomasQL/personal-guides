@@ -1,0 +1,34 @@
+(Neo)Vim 
+
+
+Salir jaja xD | :q 
+Forzar salir  | :q!
+
+
+|	H 	|  	J 	| 	K	|	L 	|
+   left	   down	   up	  right 
+
+Derecha comienzo palabras u objetos
+ w 	|  b  -> contrario 
+
+ mover al final palabras derecha
+ 	e 	
+
+modo normal -> modo insert (escribir inline)
+	i | salir con doble esc
+
+editar/insertar al final de una linea
+	shift + a 
+editar con i coloca el cursor antes de la letra
+con a cursor en edicion despues de la letra
+
+Eliminar  |  Guardar			|   
+	x 			normal.mode
+				:w (w de write)
+				:wq guarda y cierra
+
+
+
+
+
+
