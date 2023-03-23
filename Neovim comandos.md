@@ -1,19 +1,20 @@
-(Neo)Vim 
+#	NeoVim 
 
-Config
-en el archivo init.vim dentro de la carpeta nvim en home/.config :
-//
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath=&runtimepath
-source $HOME/.vimrc
-//
+## **Config**
+
+En el archivo ***init.vim*** dentro de la carpeta nvim en *home/.config*  
+
+	set runtimepath^=~/.vim runtimepath+=~/.vim/after  
+	let &packpath=&runtimepath  
+	source $HOME/.vimrc  
+  
 Luego, en la carpeta $HOME, creamos un archivo .vimrc donde colocaremos
 nuestra configuracion de plugins y cosas.
 
-Salir jaja xD | :q 
-Forzar salir  | :q!
+Salir jaja xD | :q   
+Forzar salir sin guardar cambios | :q!  
 
-
+```
 |	H 	|  	J 	| 	K	|	L 	|
    left	   down	   up	  right 
 
@@ -35,24 +36,20 @@ Eliminar  |  Guardar			|
 	x 			normal.mode
 				:w (w de write)
 				:wq guarda y cierra
+```
+<hr>
 
-
-
-
-
-
-# Plug-ins
+## **Plug-ins**
+```
 Easymotion plug-in
 	space+s , then type the character for search
 
 NERDTree plug-in
-	space+nt, abre el panel tree de folders.
+	space+nt , abre el panel tree de folders.
 	dentro de nt, con m abrimos el menu
+```
 
+<hr>
 
-
-
-
-
-
+## **Links y referencias**
 
