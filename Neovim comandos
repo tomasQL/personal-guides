@@ -1,5 +1,14 @@
 (Neo)Vim 
 
+Config
+en el archivo init.vim dentro de la carpeta nvim en home/.config :
+//
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath=&runtimepath
+source $HOME/.vimrc
+//
+Luego, en la carpeta $HOME, creamos un archivo .vimrc donde colocaremos
+nuestra configuracion de plugins y cosas.
 
 Salir jaja xD | :q 
 Forzar salir  | :q!
