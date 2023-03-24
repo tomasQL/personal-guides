@@ -53,3 +53,11 @@ NERDTree plug-in
 
 ## **Links y referencias**
 
+Themes:   
+* gruvbox https://github.com/morhetz/gruvbox
+* monokai https://github.com/tanvirtin/monokai.nvim
+* dracula https://draculatheme.com/vim
+* tokyonight https://github.com/folke/tokyonight.nvim
+* carppuccin https://github.com/catppuccin/nvim#special-integrations
+* tender 
+* moonfly 
