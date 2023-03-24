@@ -53,11 +53,20 @@ NERDTree plug-in
 
 ## **Links y referencias**
 
+Bash customization:  
+* Pure Line https://github.com/chris-marsh/pureline 
+* Powerline https://github.com/powerline/powerline
+
+
+
 Themes:   
 * gruvbox https://github.com/morhetz/gruvbox
 * monokai https://github.com/tanvirtin/monokai.nvim
 * dracula https://draculatheme.com/vim
 * tokyonight https://github.com/folke/tokyonight.nvim
-* carppuccin https://github.com/catppuccin/nvim#special-integrations
-* tender 
-* moonfly 
+* catppuccin https://github.com/catppuccin/nvim#special-integrations
+* tender https://github.com/jacoborus/tender.vim#terminal-themes
+* moonfly https://github.com/bluz71/vim-moonfly-colors
+
+Colores  
+https://www.ditig.com/256-colors-cheat-sheet
