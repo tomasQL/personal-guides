@@ -57,6 +57,9 @@ Bash customization:
 * Pure Line https://github.com/chris-marsh/pureline 
 * Powerline https://github.com/powerline/powerline
 
+Icons:  
+https://github.com/ryanoasis/vim-devicons
+
 
 
 Themes:   
