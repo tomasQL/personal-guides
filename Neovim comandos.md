@@ -11,7 +11,11 @@ En el archivo ***init.vim*** dentro de la carpeta nvim en *home/.config*
 Luego, en la carpeta $HOME, creamos un archivo .vimrc donde colocaremos
 nuestra configuracion de plugins y cosas.
 
-Salir jaja xD | :q   
+:h rtp Opens the runtime path on Neovim
+
+
+## Comandos y como salir de vim xd
+Salir | :q   
 Forzar salir sin guardar cambios | :q!  
 
 ```
@@ -59,7 +63,6 @@ Bash customization:
 
 Icons:  
 https://github.com/ryanoasis/vim-devicons
-
 
 
 Themes:   
