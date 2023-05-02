@@ -124,6 +124,27 @@ el asterísco al comando add.
     i.e git add uploads/.gitkeep    // no uploads/*.gitkeep
 
 # 
+  
+Para observar diferencias de los cambios hechos en el repo  
+utilizaremos el comando git diff. No obstante, el tooling  
+visual como el que otorga VSCode u otros IDEs de desarrollo  
+pueden llegar a ser más útiles ya que al usar un *git diff*  
+lo estaremos observando desde la consola.  
 
+  
+    git diff <filename> // sin el filename cuando solo  
+                        // hemos modificado 1 archivo  
+                        // sin haberlo pasado al stage
+    
+    git diff --staged   // flag añadida para cuando  
+                        // queremos ver la diff en un  
+                        // archivo en el stage.  
+#
+  
+### **Actualizando commit message**  
+  
+**Last commit**  
+  
+    git commit --amend -m "NEW MESSAGE"  
 
-
+#### **Revirtiendo commits**
